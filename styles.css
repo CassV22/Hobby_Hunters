@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: 'Besley', serif;
+}
+
+.top-container {
+    background-image: url("images/background_img_resized.png");
+    background-position: left;
+    height: 450px;
+}
+
+.nav_bar {
+   display: flex;
+   gap: 30px;
+   justify-content: flex-end;
+   padding-right: 100px;
+   font-weight: 300;
+   
+}
+
+#logo {
+    height: 300px;
+    width: 300px;
+    padding-left: 50px;
+}
+
+.header-container {
+    display: flex;
+    gap: 30px;
+    
+}
+
+/****Sign up text blurb****/
+.head_text {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+/****Sign up text header****/
+.intro {
+    margin-bottom: 15px;
+    padding-top: 30px;
+    
+}
+
+button {
+    width: 80px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid;
+    background-color: #5CE1E6;
+}
+
+.main-container {
+    padding-top: 5px;  
+    background-color: #E9FBFC; 
+    height: 1100px; 
+}
+
+.explore {
+    text-align: center;
+    padding-bottom: 60px;
+    font-size: 25px;
+}
+
+.pottery {
+    background-image: url("images/pottery.png");
+    background-position: center;
+    width: 170px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    border: 2px solid #00A0A6;
+}
+
+.trivia {
+    background-image: url("images/trivia.png");
+    background-position: center;
+    width: 170px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    border: 2px solid #00A0A6;
+}
+
+.archery {
+    background-image: url("images/archery.png");
+    background-position: center;
+    width: 170px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    border: 2px solid #00A0A6;
+}
+
+.diy {
+    background-image: url("images/diy.png");
+    background-position: center;
+    width: 170px;
+    height: 200px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    border: 2px solid #00A0A6;
+}
+
+.hobbies {
+    display: flex;
+    gap: 130px;
+    padding-left: 90px;
+}
+
+.hobby_names {
+    display: flex;
+    gap: 100px;    
+    font-weight: bold;
+    font-size: 24px;   
+}
+
+.pottery_sub {
+    margin-top: 10px;
+    padding-left: 140px;
+}
+
+.trivia_sub {
+    margin-top: 10px;
+    padding-left: 130px;
+}
+
+.archery_sub {
+    margin-top: 10px;
+    padding-left: 130px;
+}
+
+.diy_sub {
+    margin-top: 10px;
+    padding-left: 130px;
+}
+
+.quote {
+    background-color: #6DCED2;
+    margin-top: 120px;
+    
+}
+
+.quote h1 {
+    padding-left: 30%;
+    padding-top: 40px;
+    font-style: italic;
+   
+}
+
+.quote h2 {
+    padding-left: 52%;
+    font-size: 28px;
+    padding-bottom: 30px;
+}
+
+.action_call {
+    background-color: #5CE1E6;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 125px;
+    margin-bottom: 150px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.signup2 {
+    margin-top: 22px;
+    border: 2px solid;
+}
+
+.call_sign {
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+
+.call_header {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 0;
+} 
+
+footer {
+    text-align: center;
+    background-color: #00A0A6;
+    height: 50px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+footer p {
+    font-weight: bold;
+}
